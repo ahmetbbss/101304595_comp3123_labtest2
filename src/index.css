@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Add these styles to your CSS file */
+.weather-container {
+  display: flex;
+  align-items: center;
+}
+
+.weather-info {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.day-name,
+.date,
+.location,
+.temperature,
+.description {
+  margin-bottom: 5px;
+}
+
+.large-font {
+  font-size: 24px;
+}
+
+.unit {
+  font-size: 16px;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
+.weather-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.search-engine {
+  width: 7cm;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.weather-info {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+/* Additional styles for weather information */
+.day-name,
+.date,
+.location,
+.temperature,
+.description {
+  margin-bottom: 5px;
+}
+
+.large-font {
+  font-size: 43px;
+}
+
+.unit {
+  font-size: 16px;
+}
+
+.citybox{
+  width: 92%;
+  background: #f0eccc;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.two-column-layout{
+  display: flex;
+}
+
+
+.weekly-day-boxs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.right-column {
+  padding: 0 20px;
+}
+
+.weekly-day-box{
+  margin: 0 2px;
+  text-align: center;
+  border-radius: 7px;
+  padding: 5px;
+}
+/*
+.current-day{
+  background-color: yellowgreen;
+}*/
+
+.other-day{
+  background-color: silver;
+}
+
+.weekly-0{
+  background-color: yellowgreen !important;
+}
+
+.extra-info .info{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0 5px 0;
+}
